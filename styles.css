@@ -16,6 +16,10 @@ body {
   --text-decoration-color: #ff9a00;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .container {
   margin: 0 auto;
   padding: 0 30px;
@@ -163,6 +167,35 @@ body {
 }
 
 .skills__text {
+  color: var(--secondary-text-color);
+  text-align: justify;
+}
+
+.project__header {
+  color: var(--secondary-text-color);
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.project__item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.project__item__header {
+  margin-bottom: 5px;
+}
+
+.project__item__link {
+  text-decoration: none;
+  color: var(--primary-text-color);
+  font-weight: 600;
+}
+
+.project__item__link:hover {
+  color: var(--text-decoration-color);
+}
+
+.project__item__text {
   color: var(--secondary-text-color);
   text-align: justify;
 }

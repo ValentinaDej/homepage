@@ -257,6 +257,9 @@ ul {
   margin-bottom: 20px;
 }
 
+.additional-info__education-university {
+  margin-bottom: 15px;
+}
 .additional-info__education-header {
   color: var(--secondary-text-color);
   text-align: left;
@@ -266,14 +269,14 @@ ul {
 .additional-info__education-university-durability {
   color: var(--durability-text-color);
   text-align: left;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
   font-size: 15px;
 }
 
 .additional-info__education-university-speciality {
   color: var(--primary-text-color);
   text-align: left;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 }
 
 .additional-info__education-university-name {
